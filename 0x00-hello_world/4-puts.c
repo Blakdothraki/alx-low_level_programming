@@ -1,15 +1,14 @@
 #include <stdio.h>
 
+/**
+ * main - function called
+ * Return: value set to zero
+ */
+
 int main(void)
-	/* main function called
-	 * return value set to zero
-	 */
 {
-    char str[] = "Programming is like building a multilingual puzzle\n";
-    
-    
-    puts(str);
+	char str[] = "Programming is like building a multilingual puzzle\n";
 
-
-    return (0);
+	puts(str);
+	return (0);
 }
