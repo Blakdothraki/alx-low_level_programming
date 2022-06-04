@@ -3,7 +3,12 @@
 #include <time.h>
 /* more headers goes there */
 
-/* main - goes there */
+/**
+ * main - goes there
+ *  main - function is called
+ *  Return: function  your code goes there
+ */
+
 int main(void)
 {
 	int n;
@@ -13,15 +18,15 @@ int main(void)
 	printf("%d\n", n);
 	if (n > 0)
 	{
-		printf("is positive\n");
+		printf(" is positive\n");
 	}
 	else if (n == 0)
 	{
-		printf("is zero\n");
+		printf(" is zero\n");
 	}
-	else if (n < 0)
+	else
 	{
-		printf("is negative\n");
+		printf(" is negative\n");
 	}
 	/* your code goes there */
 	return (0);

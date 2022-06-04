@@ -3,9 +3,13 @@
 #include <time.h>
 /* more headers goes there */
 
-/* main - goes there */
+/**
+ * main - goes there
+ *  main - function is called
+ *  Return: function  your code goes there
+ */
+
 int main(void)
-/* main - important function */
 {
 	int n, last;
 
@@ -25,6 +29,5 @@ int main(void)
 	{
 		printf("and is less than 6 and not 0\n");
 	}
-	/* your code goes there */
 	return (0);
 }

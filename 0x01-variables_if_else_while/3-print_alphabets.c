@@ -1,5 +1,6 @@
 #include <stdio.h>
 /* header library for standard IO */
+
 /**
  * main - goes there
  *  main - function is called
@@ -14,6 +15,11 @@ int main(void)
 	{
 		putchar(alpha);
 	}
+	for (alpha = 'A'; alpha <= 'Z'; alpha++)
+	{
+		putchar(alpha);
+	}
 	putchar('\n');
 	return (0);
 }
+
