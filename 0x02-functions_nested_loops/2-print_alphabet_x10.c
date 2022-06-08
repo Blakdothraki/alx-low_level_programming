@@ -1,19 +1,16 @@
-/**
- * File: 2-print_alphabet_x10.c created by blakdothraki
- * Auth: Blakdothraki
- */
-
 #include "main.h"
 /**
  * print_alphabet_x10 - a function that prints alphabet x10
- * void: doesnt take parameterss so no return value
+ *
+ * Description: it counts the whole alpha ten times
+ * and does so with a new line each time
  */
 
 void print_alphabet_x10(void)
 {
-        int count = 0;
+	int count = 0;
 
-        while (count < 10)
+	while (count < 10)
 	{
 		char alpha;
 
@@ -23,6 +20,5 @@ void print_alphabet_x10(void)
 		}
 		_putchar('\n');
 		count++;
-	}   
-	return;
+	}
 }

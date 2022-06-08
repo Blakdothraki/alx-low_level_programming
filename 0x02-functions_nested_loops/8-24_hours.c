@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * Header file created by blakdothraki
  * jack_bauer - A function that prints every minute of the day
  *
+ * Description: _putchar function is called here to print
+ * every minute of the day sequentially
  */
 
 void jack_bauer(void)

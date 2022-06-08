@@ -1,7 +1,9 @@
 #include "main.h"
 /**
- * Header file created by blakdothraki
  * times_table - A function that prints the 9 times table
+ *
+ * Description: it arranges the numbers in row and column separated by
+ * a ,
  */
 
 void times_table(void)
@@ -12,8 +14,8 @@ void times_table(void)
 	{
 		_putchar('0');
 
-		for(mult = 1; mult <= 9; mult++)
-		{	
+		for (mult = 1; mult <= 9; mult++)
+		{
 			_putchar(',');
 			_putchar(' ');
 
@@ -22,7 +24,7 @@ void times_table(void)
 			if (prod <= 9)
 			{
 				_putchar(' ');
-			}	
+			}
 			else
 			{
 				_putchar((prod / 10) + '0');

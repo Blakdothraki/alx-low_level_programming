@@ -1,8 +1,10 @@
 #include "main.h"
 /**
- * Header file created by blakdothraki
  * _isalpha - A function that checks if a character is an alpha
  * @c: only operand
+ *
+ * Description: the or operator checks whether the parameter is
+ * a lower or upper case.
  * Return: 1 if alpha and 0 if not.
  */
 
