@@ -1,7 +1,11 @@
+/**
+ * File: 2-print_alphabet_x10.c created by blakdothraki
+ * Auth: Blakdothraki
+ */
+
 #include "main.h"
 /**
- * Header file created by blakdothraki
- * A function that prints alphabets in lower case
+ * print_alphabet_x10: a function that prints alphabet x10
  */
 
 void print_alphabet_x10(void)
