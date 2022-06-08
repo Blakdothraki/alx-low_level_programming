@@ -5,7 +5,8 @@
 
 #include "main.h"
 /**
- * print_alphabet_x10: a function that prints alphabet x10
+ * print_alphabet_x10 - a function that prints alphabet x10
+ * void: doesnt take parameterss so no return value
  */
 
 void print_alphabet_x10(void)

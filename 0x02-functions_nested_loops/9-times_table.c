@@ -1,12 +1,12 @@
 #include "main.h"
 /**
  * Header file created by blakdothraki
- * A function that prints the 9 times table, starting 0
+ * times_table - A function that prints the 9 times table
  */
 
 void times_table(void)
 {
-int num, mult, prod;
+	int num, mult, prod;
 
 	for (num = 0; num <= 9; num++)
 	{

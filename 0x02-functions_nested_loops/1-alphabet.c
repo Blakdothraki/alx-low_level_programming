@@ -6,10 +6,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - prints alphabets a-z
- * prints alphabet
- *
- * Return:0
+ * print_alphabet - prints alphabets a-z in small letters
  */
 
 void print_alphabet(void)

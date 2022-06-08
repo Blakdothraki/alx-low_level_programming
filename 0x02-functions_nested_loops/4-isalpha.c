@@ -1,7 +1,9 @@
 #include "main.h"
 /**
  * Header file created by blakdothraki
- * A function that checks if a character is an alphabet
+ * _isalpha - A function that checks if a character is an alpha
+ * @c: only operand
+ * Return: 1 if alpha and 0 if not.
  */
 
 int _isalpha(int c)

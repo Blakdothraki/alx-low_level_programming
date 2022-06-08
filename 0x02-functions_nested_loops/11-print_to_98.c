@@ -1,7 +1,9 @@
 #include "main.h"
 /**
  * Header file created by blakdothraki
- * A function that print alnatural number from n to 98
+ * print_to_98 - A function that print alnatural number from n
+ * to 98
+ * @n: the beginning number
  */
 
 void print_to_98(int n)

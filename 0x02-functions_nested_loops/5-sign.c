@@ -1,7 +1,9 @@
 #include "main.h"
 /**
- *Header file created by blakdothraki
- * A function that prints sign of a number
+ * Header file created by blakdothraki
+ * print_sign - A function that prints sign of a number
+ * @n: the parameter which should be a number.
+ * Return: returns 1 or 0 or -1.
  */
 
 int print_sign(int n)

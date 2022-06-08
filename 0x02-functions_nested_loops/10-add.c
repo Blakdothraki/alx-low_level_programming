@@ -1,7 +1,10 @@
 #include "main.h"
 /**
  * Header file created by blakdothraki
- * A function that adds two numbers and return result
+ * add - A function that adds two numbers and return result
+ * Return: result of the addition
+ * @a: first operand
+ * @b: second operand
  */
 
 int add(int a, int b)

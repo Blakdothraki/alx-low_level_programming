@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- *Header file created by blakdothraki
- * A function that checks if a character is in lower case
+ * Header file created by blakdothraki
+ * _islower - A function that checks if a character is in lower
+ * @c: single parameter
  */
 
 int _islower(int c)
