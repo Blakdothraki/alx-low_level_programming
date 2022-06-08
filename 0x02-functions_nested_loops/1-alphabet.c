@@ -1,18 +1,19 @@
 /**
- *Header file created by blakdothraki
- * A function that prints alphabets in lower case
+ * File: 1-alphabet.c created by blakdothraki
+ * Auth: Blakdothraki
  */
 
 #include "main.h"
+
 /**
- * Header file created by blakdothraki
- * A function that prints alphabets in lower case
- */
-void print_alphabet(void)
-/**
- * void print_alphabet(void)
+ * print_alphabet - prints alphabets a-z
  * prints alphabet
- */{
+ *
+ * Return:0
+ */
+
+void print_alphabet(void)
+{
 	char alpha;
 
 	for (alpha = 'a'; alpha <= 'z'; alpha++)
