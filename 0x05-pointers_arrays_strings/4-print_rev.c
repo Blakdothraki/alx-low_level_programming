@@ -3,7 +3,7 @@
  * print_rev - reverses the string
  * @s: string as param
  *
- * Description: a function that reverses the string and prints to stdout + newlin
+ * Description: a function that reverses the string and prints to stdout + newli
  * Return: not set,
  */
 
