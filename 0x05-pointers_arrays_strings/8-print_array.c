@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_array(int *a, int *n)
+ * print_array - prints n elements of an array
  * @a: first args
  * @n: second args
  *

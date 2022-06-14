@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * swap_int(int *a, int *b) - function with two args to be swap
+ * swap_int - function with two args to be swap
  * @a: first args
  * @b: second args
  *

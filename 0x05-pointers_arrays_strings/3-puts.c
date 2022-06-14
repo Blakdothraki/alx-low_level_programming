@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _puts(char *str) - function of the void type that prints to stdout
+ * _puts - function of the void type that prints to stdout
  * @str: args of the function
  *
  * Description: a function that prints to stdout followed by a new line

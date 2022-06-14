@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_rev(char *s) - reverses the string
+ * print_rev - reverses the string
  * @s: string as param
  *
  * Description: a function that reverses the string and prints to stdout + newlin
