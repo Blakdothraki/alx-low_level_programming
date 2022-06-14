@@ -3,7 +3,7 @@
  * print_rev - reverses the string
  * @s: string as param
  *
- * Description: a function that reverses the string and prints to stdout + newli
+ * Description: a function that reverses the string and prints to stdout
  * Return: not set,
  */
 
@@ -18,5 +18,5 @@ void print_rev(char *s)
 		_putchar(s[index]);
 
 	_putchar('\n');
-}	
+}
 
