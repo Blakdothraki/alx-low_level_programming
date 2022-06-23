@@ -1,19 +1,25 @@
+#include "main.h"
+int prime(int n, int i);
 /**
  * is_prime_number - a function that calls itself
  * @n: number to be checked
- * prime - a second function that calls itself
- * @i: second param for second function
  *
- * Description: a function that returns 1 if n is prime number
- * Return: Returns 1 if true and 0 otherwise
+ * Description: same as below
+ * Return: int value
  */
-#include "main.h"
-int prime(int n, int i);
-
 int is_prime_number(int n)
 {
 	return (prime(n, 1));
 }
+
+/**
+ * prime - a second function that calls itself
+ * @n: second param for second function
+ * @i: same
+ *
+ * Description: a function that returns 1 if n is prime number
+ * Return: Returns 1 if true and 0 otherwise
+ */
 
 int prime(int n, int i)
 {
