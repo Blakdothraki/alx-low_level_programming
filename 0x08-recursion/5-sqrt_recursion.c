@@ -1,6 +1,8 @@
 /**
  * _sqrt_recursion - function that calls itself
  * @n: integer to be square rooted
+ * _sqrt - a function inside the function
+ * @i: the second param of the second function
  *
  * Description: a function that returns the natural square root of a number
  * Return: the square root, if no square root, returns -1
