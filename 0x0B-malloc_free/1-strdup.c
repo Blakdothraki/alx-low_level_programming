@@ -34,4 +34,4 @@ char *_strdup(char *str)
 	}
 	ptr[a] = '\0';
 	return (ptr);
-}	
+}
