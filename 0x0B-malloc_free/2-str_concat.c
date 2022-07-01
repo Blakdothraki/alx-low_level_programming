@@ -1,26 +1,17 @@
-/**
- * str_concat - a function call
- * @s1: first param
- * @s2: second param
- *
- * Description: a function that concat two strings
- * Return: a pointer to a newly allocated spacein mem containing s1 n s2
- * or NULL on failure
- */
-
 #include "main.h"
+#include <stdio.h>
 #include <stdlib.h>
-
+/**
+  * str_concat - Concatenates two strings of any size
+  * @s1: the first string to concatenate
+  * @s2: the second string to concatenate
+  *
+  * Return: the two strings concatenated
+  */
 char *str_concat(char *s1, char *s2)
 {
-	char *ptr;
-	int a = 0, b = 0, c = 0, d = 0;
-
-	while (s1[a])
-		a++;
-
-	while (s2[b])
-		b++;
+	int i = 0, j = 0, k = 0, l = 0;
+	char *s;
 
 	if (s1 == NULL)
 		s1 = "";
@@ -28,27 +19,35 @@ char *str_concat(char *s1, char *s2)
 	if (s2 == NULL)
 		s2 = "";
 
-	c = a + b;
+	while (s1[i])
+		i++;
 
-	ptr = malloc((sizeof(char) * c) + 1);
-	
-	if (ptr == NULL)
+	while (s2[j])
+		j++;
+
+	l = i + j;
+	s = malloc((sizeof(char) * l) + 1);
+
+	if (s == NULL)
 		return (NULL);
 
-	while (d < c)
-	{
-		if (d <= a)
-			ptr[d] = s1[d];
+	j = 0;
 
-		if (d >= a)
+	while (k < l)
+	{
+		if (k <= i)
+			s[k] = s1[k];
+
+		if (k >= i)
 		{
-			ptr[d] = s2[b];
-			b++;
+			s[k] = s2[j];
+			j++;
 		}
 
-		d++;
+		k++;
 	}
-	ptr[d] = '\0';
 
-	return (0);
+	s[k] = '\0';
+	return (s);
 }
+
