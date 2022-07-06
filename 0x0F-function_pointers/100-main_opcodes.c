@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 			exit(2);
 		}
 
-		ud_unit(&ud_obj);
+		ud_init(&ud_obj);
 		ud_set_input_buffer(&ud_obj, argv[1], val);
 		ud_set_mode(&ud_obj, 64);
 		ud_set_syntax(&ud_obj, UD_SYN_INTEL);
