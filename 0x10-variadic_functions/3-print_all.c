@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "variadic_function.h"
+#include "variadic_functions.h"
 #include <stdlib.h>
 
 /**
@@ -98,5 +98,4 @@ void print_a_char_ptr(char *separator, va_list args)
 
 	printf("%s%s", separator, arg);
 }
-
 
